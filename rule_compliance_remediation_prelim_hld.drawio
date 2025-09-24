@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Control Failure in FireMon" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="214" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="202" y="106" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -24,21 +24,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Check SN for rule existence?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="224" y="120" width="100" height="80" as="geometry" />
+          <mxGeometry x="212" y="186" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="AwS022Rujj1-3uTSAjEN-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="314" y="310" as="targetPoint" />
+            <mxPoint x="302" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Create Rule Object" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="374" y="140" width="120" height="40" as="geometry" />
+          <mxGeometry x="362" y="206" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AwS022Rujj1-3uTSAjEN-3" target="AwS022Rujj1-3uTSAjEN-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-3" value="Associate control failure review task" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="214" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="202" y="346" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AwS022Rujj1-3uTSAjEN-7" target="AwS022Rujj1-3uTSAjEN-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -57,16 +57,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-7" value="Remediation Possible?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="224" y="400" width="100" height="80" as="geometry" />
+          <mxGeometry x="212" y="466" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-13" value="Close Control Failure Review Task" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="94" y="520" width="120" height="40" as="geometry" />
+          <mxGeometry x="82" y="586" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AwS022Rujj1-3uTSAjEN-17" target="AwS022Rujj1-3uTSAjEN-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-17" value="Open PER Ticket" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="334" y="520" width="120" height="40" as="geometry" />
+          <mxGeometry x="322" y="586" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AwS022Rujj1-3uTSAjEN-22" target="AwS022Rujj1-3uTSAjEN-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +78,7 @@
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AwS022Rujj1-3uTSAjEN-22" target="AwS022Rujj1-3uTSAjEN-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="134" y="650" as="targetPoint" />
+            <mxPoint x="122" y="716" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-29" value="Delete Rule" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AwS022Rujj1-3uTSAjEN-27" connectable="0" vertex="1">
@@ -87,21 +87,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-22" value="Is exception Approved?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="224" y="598.7" width="100" height="80" as="geometry" />
+          <mxGeometry x="212" y="664.7" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AwS022Rujj1-3uTSAjEN-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="614" y="638.7" as="targetPoint" />
+            <mxPoint x="602" y="704.7" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-25" value="Close Control Failure Review Ticket with an exception approved state." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="414" y="598.7" width="120" height="80" as="geometry" />
+          <mxGeometry x="402" y="664.7" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-41" value="Create Rule Control Whitelist in FireMon" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="614" y="618.7" width="120" height="40" as="geometry" />
+          <mxGeometry x="602" y="684.7" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-42" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="740" y="238.7" width="590" height="420" as="geometry" />
+          <mxGeometry x="728" y="200" width="590" height="420" as="geometry" />
         </mxCell>
         <mxCell id="AwS022Rujj1-3uTSAjEN-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="AwS022Rujj1-3uTSAjEN-42" vertex="1">
           <mxGeometry width="590" height="21" as="geometry" />
@@ -175,11 +175,11 @@
             <mxRectangle width="417" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i5w6eRWlZnGXozr9hihg-4" value="&lt;h1 style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;u&gt;Rule Compliance and Remediation Automation&lt;br&gt;&lt;/u&gt;&lt;/span&gt;Control Failure&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;The flow diagram outlines the workflow automation to manage, document rule control failures to resolution: Fix, Exception or Delete&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="40" width="790" height="100" as="geometry" />
+        <mxCell id="i5w6eRWlZnGXozr9hihg-4" value="&lt;h1 style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;u&gt;Rule Compliance and Remediation Automation&lt;br&gt;&lt;/u&gt;&lt;/span&gt;Control Failure&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;The flow diagram outlines the workflow automation to manage, document rule control failures to resolution: Fix, Exception or Delete&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="528" y="40" width="790" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="i5w6eRWlZnGXozr9hihg-5" value="&lt;font style=&quot;font-size: 35px; color: light-dark(rgb(250, 0, 0), rgb(237, 237, 237));&quot;&gt;Preliminary Draft&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=-15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="412.81" y="320.94" width="276" height="60" as="geometry" />
+        <mxCell id="i5w6eRWlZnGXozr9hihg-5" value="&lt;font style=&quot;font-size: 35px; color: light-dark(rgb(250, 0, 0), rgb(237, 237, 237));&quot;&gt;Preliminary Draft&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=-15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="400.81" y="386.94" width="276" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
