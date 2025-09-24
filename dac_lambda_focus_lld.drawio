@@ -1,0 +1,33 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="rIHYKkTQn9uvlZMUXlH-">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;b&gt;Entry Point Lambda&lt;/b&gt;" tooltip="Purpose: &#xa;Acts as the orchestrator of the workflow. Invoked directly or by a scheduled event (e.g., CloudWatch Scheduled Events).&#xa;&#xa;Responsibilities:&#xa;Pull management stations (Panoramas) from ServiceNow CMDB.&#xa;Trigger &quot;Management Station Processing Lambda&quot; for each Panorama.&#xa;Ensure all steps are executed in sequence or parallel as needed." id="B1hQJW-hkzMyoEG26urg-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="40" y="40" width="150" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;&lt;b&gt;Management Station Processing Lambda&lt;/b&gt;&lt;/div&gt;" tooltip="Purpose:&#xa;Processes Panorama data and queries them for additional data about managed firewalls.&#xa;&#xa;Responsibilities:&#xa;Retrieve additional metadata about the Panorama (e.g., software version, HA status).&#xa;Discover firewalls managed by the Panorama.&#xa;For each discovered firewall, invoke &quot;Firewall Processing Lambda.&quot;" id="B1hQJW-hkzMyoEG26urg-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="40" y="120" width="150" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;&amp;nbsp;&lt;b&gt;Firewall Processing Lambda&lt;/b&gt;&lt;/div&gt;" tooltip="Purpose: &#xa;Processes individual firewall data.&#xa;&#xa;Responsibilities:&#xa;Retrieve firewall metadata via Panorama and ServiceNow.&#xa;Query firewall directly for deeper information (e.g., config state, HA configuration).&#xa;Validate enrollment status in ancillary systems like FireMon or CoolAlerts.&#xa;Persist all relevant data to the Postgres database." id="B1hQJW-hkzMyoEG26urg-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="40" y="200" width="150" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;&lt;b&gt;Ancillary System Validation Lambda&lt;/b&gt;&lt;/div&gt;" tooltip="Purpose: &#xa;Validates device enrollment statuses across monitoring systems.&#xa;&#xa;Responsibilities:&#xa;Query FireMon and other platforms (via their APIs).&#xa;Compare data with existing database records and flag discrepancies.&#xa;Update respective enrollment database tables." id="B1hQJW-hkzMyoEG26urg-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="40" y="280" width="150" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B1hQJW-hkzMyoEG26urg-5" value="Current Priority:&lt;br&gt;API Based Global Counter Collection on Firewalls with Standard Egress Template. Required for&lt;br&gt;&lt;br&gt;Pull in basic management station data, collect firewall existence data as well at template and device group association.&lt;br&gt;Required:&lt;br&gt;Entry Point Lambda&lt;br&gt;Management Station Processing Lambda (minimum attributes)&lt;br&gt;Firewall Processing Lambda (no enrichment, just injection of what&#39;s passed)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="460" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
